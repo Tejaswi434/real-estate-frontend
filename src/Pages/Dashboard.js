@@ -9,6 +9,7 @@ import { Dropdown, Space } from "antd";
 import { Button, Layout, Menu, theme } from "antd";
 import { useNavigate, useLocation, Outlet } from "react-router-dom";
 import { items } from "./Data";
+
 import "./Dashboard.css";
 
 const { Header, Sider, Content } = Layout;
@@ -61,6 +62,7 @@ const Dashboard = () => {
             ></div>
           )}
         </div>
+
         <Menu
           onClick={handleMenuClick}
           theme="dark"
@@ -68,28 +70,29 @@ const Dashboard = () => {
           selectedKeys={[location.pathname]}
           items={[
             {
-              key: "/agricultural",
+              key: "/dashboard/agricultural",
               icon: <UserOutlined />,
               label: "Agriculture",
             },
             {
-              key: "/commericial",
+              key: "/dashboard/commercial",
               icon: <UserOutlined />,
-              label: "Commericial",
+              label: "Commercial",
             },
             {
-              key: "/layout",
+              key: "/dashboard/layout",
               icon: <UserOutlined />,
               label: "Layout",
             },
             {
-              key: "/dashboard/residental",
+              key: "/dashboard/residential",
               icon: <UserOutlined />,
               label: "Residential",
             },
           ]}
         />
       </Sider>
+
       <Layout style={{ marginLeft: collapsed ? 80 : 200 }}>
         <Header
           style={{
@@ -126,9 +129,9 @@ const Dashboard = () => {
             </a>
           </Dropdown>
         </Header>
-        <Content class="content">
-          <Outlet />
-        </Content>
+        <Outlet />
+
+        <Content class="content"></Content>
       </Layout>
     </Layout>
   );
