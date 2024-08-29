@@ -1,0 +1,34 @@
+.residential-form-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-card {
+  padding: 20px;
+}
+
+.checkbox-group {
+  display: flex;
+  gap: 10px;
+}
+
+.radio-group {
+  display: flex;
+  gap: 10px;
+}
+
+.residential-form .ant-form-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.form-item-submit {
+  text-align: center;
+}
