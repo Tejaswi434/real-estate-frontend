@@ -1,0 +1,194 @@
+.background {
+  background-image: url("https://static.rdc.moveaws.com/images/hero/default/2021-11/webp/hp-hero-desktop-xl-2x.webp");
+  height: 50vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 0px;
+  padding: 0;
+  overflow: hidden;
+}
+/* landing page button color changed */
+.landingSearch .ant-input-search-button {
+  background-color: #545454;
+  color: #fff;
+}
+
+.landingSearch .ant-input-search-button:hover {
+  background-color: #333 !important;
+}
+
+.ant-card .ant-card-cover > * {
+  display: block;
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+  height: 26vh;
+  object-fit: cover;
+}
+
+.ant-menu-horizontal > .ant-menu-item {
+  color: white !important;
+}
+.element.style {
+  padding: 0 24px;
+}
+
+@media (max-width: 768px) {
+  .landingSearch {
+    max-width: 100%;
+  }
+
+  .ant-card {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+.heading {
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.heading1 {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+:where(.css-dev-only-do-not-override-11lehqq).ant-menu-dark
+  .ant-menu-item-selected,
+:where(.css-dev-only-do-not-override-11lehqq).ant-menu-dark
+  > .ant-menu
+  .ant-menu-item-selected {
+  background-color: rgb(13, 65, 107) !important;
+}
+
+@media (max-width: 1200px) {
+  .heading {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .heading {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading {
+    font-size: 14px; /* Font size for small phones */
+  }
+}
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.card-item {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 16px;
+}
+
+.landingSearchContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 64px);
+  box-sizing: border-box;
+  background-color: #ddd;
+}
+
+.landingSearch {
+  width: 100%; /* Full width of its container */
+  max-width: 600px; /* Maximum width for larger screens */
+  margin: 0;
+}
+
+@media (max-width: 1200px) {
+  .landingSearch {
+    max-width: 500px; /* Adjust width for medium screens */
+    margin-top: 1200px;
+  }
+}
+
+@media (max-width: 992px) {
+  .landingSearch {
+    max-width: 400px; /* Adjust width for smaller screens */
+    margin-top: 123px;
+  }
+}
+
+@media (max-width: 768px) {
+  .landingSearch {
+    max-width: 300px;
+    margin-top: 123px; /* Adjust width for mobile screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .landingSearch {
+    max-width: 90%; /* Nearly full width on very small screens */
+    margin-top: 123px;
+  }
+}
+
+/* styles12 */
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Default to 4 columns */
+  gap: 16px; /* Space between cards */
+  padding: 16px; /* Padding around the grid */
+  box-sizing: border-box; /* Include padding and border in element's total width */
+}
+
+.card-item {
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for card */
+  border-radius: 8px; /* Optional rounded corners for card */
+}
+
+.card-item img {
+  width: 100%;
+  height: auto; /* Adjust height to auto to maintain aspect ratio */
+  object-fit: cover;
+}
+
+@media (max-width: 1200px) {
+  .cards-container {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns for medium screens */
+  }
+}
+
+@media (max-width: 992px) {
+  .cards-container {
+    grid-template-columns: repeat(3, 1fr); /* 2 columns for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .cards-container {
+    grid-template-columns: repeat(2, 1fr); /* 1 column for mobile screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .cards-container {
+    grid-template-columns: repeat(2, 1fr); /* 1 column for very small screens */
+  }
+}

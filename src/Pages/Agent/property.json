@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "address": "123 Skyline Avenue",
+    "village": "Bhogapuram",
+    "pincode": "531163",
+    "location": "Bhogapuram",
+    "price": "₹1.2 Crore",
+    "type": "Apartment",
+    "budget": "High",
+    "propertyDetails": "Spacious 3 BHK apartment with a beautiful view of the city. Near to schools and shopping centers. Features include a modern kitchen, large living room, and a private balcony."
+  },
+  {
+    "id": 2,
+    "address": "456 Serenity Complex",
+    "village": "Gachibowli",
+    "pincode": "500032",
+    "location": "Gachibowli",
+    "price": "₹85 Lakhs",
+    "type": "Flat",
+    "budget": "Medium",
+    "propertyDetails": "Cozy 2 BHK flat in a gated community with excellent amenities. Close to IT parks and recreational facilities. Includes access to a swimming pool and gym."
+  },
+  {
+    "id": 3,
+    "address": "789 Elite Villas",
+    "village": "Hitech City",
+    "pincode": "500081",
+    "location": "Hitech City",
+    "price": "₹2.5 Crore",
+    "type": "Villa",
+    "budget": "High",
+    "propertyDetails": "Luxurious 4 BHK villa with a private garden and swimming pool. Located in a serene environment with easy access to major roads and shopping malls."
+  },
+  {
+    "id": 4,
+    "address": "321 City Heights",
+    "village": "Madhapur",
+    "pincode": "500081",
+    "location": "Madhapur",
+    "price": "₹1.5 Crore",
+    "type": "Apartment",
+    "budget": "High",
+    "propertyDetails": "Elegant 3 BHK apartment in a high-rise building. Offers panoramic city views and has modern amenities including a gym, clubhouse, and 24/7 security."
+  },
+  {
+    "id": 5,
+    "address": "654 Green Meadows",
+    "village": "Kondapur",
+    "pincode": "500084",
+    "location": "Kondapur",
+    "price": "₹90 Lakhs",
+    "type": "Flat",
+    "budget": "Medium",
+    "propertyDetails": "Spacious 2 BHK flat with contemporary design. Located in a well-connected area with easy access to public transportation and shopping areas."
+  },
+  {
+    "id": 6,
+    "address": "987 Luxe Apartments",
+    "village": "Banjara Hills",
+    "pincode": "500034",
+    "location": "Banjara Hills",
+    "price": "₹1.1 Crore",
+    "type": "Apartment",
+    "budget": "High",
+    "propertyDetails": "Modern 2 BHK apartment with high-end finishes. Situated in a prime location with proximity to business hubs and entertainment options."
+  },
+  {
+    "id": 7,
+    "address": "135 Garden View",
+    "village": "Jubilee Hills",
+    "pincode": "500033",
+    "location": "Jubilee Hills",
+    "price": "₹1.8 Crore",
+    "type": "Home",
+    "budget": "High",
+    "propertyDetails": "Beautiful 3 BHK home with a lush garden and outdoor seating area. Located in a peaceful neighborhood with easy access to schools and hospitals."
+  },
+  {
+    "id": 8,
+    "address": "246 New Age Apartments",
+    "village": "Secunderabad",
+    "pincode": "500003",
+    "location": "Secunderabad",
+    "price": "₹75 Lakhs",
+    "type": "Flat",
+    "budget": "Medium",
+    "propertyDetails": "Stylish 1 BHK flat in a newly developed area. Features include modern amenities and easy access to major transportation routes and shopping centers."
+  }
+]

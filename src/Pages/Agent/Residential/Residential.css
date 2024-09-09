@@ -1,0 +1,99 @@
+.residential-form-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-card {
+  padding-bottom: 20px;
+  border: 1px solid #808080;
+  margin-bottom:20px;
+}
+
+.checkbox-group {
+  display: flex;
+  gap: 10px;
+}
+
+.radio-group {
+  display: flex;
+  gap: 10px;
+}
+
+.residential-form .ant-form-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.form-item-submit {
+  text-align: center;
+}
+
+.plus-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #1890ff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #000;
+}
+/* Override default Ant Design carousel arrow styles */
+.custom-carousel .slick-prev,
+.custom-carousel .slick-next {
+  color: blue;
+  font-size: 24px;
+}
+
+.custom-carousel .slick-prev:before,
+.custom-carousel .slick-next:before {
+  font-size: 24px;
+}
+
+.custom-carousel .slick-prev {
+  left: 10px;
+}
+
+.custom-carousel .slick-next {
+  right: 10px;
+}
+.custom-carousel .slick-slide {
+  height: 30%; /* Adjust the height of the carousel slides */
+}
+
+.custom-carousel .slick-slide img {
+  height: 100%; /* Make image height fill the container */
+  object-fit: cover; /* Ensure the image covers the container */
+}
+
+
+.form-cards{
+  border: 1px solid #808080;
+  padding:6%;
+  border-radius: 12px;
+}

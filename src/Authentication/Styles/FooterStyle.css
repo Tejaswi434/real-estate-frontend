@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+.footer {
+ background-color: #031a31; /* Dark blue */
+ color: white; /* White text */
+ padding: 20px 0; /* Reduced padding */
+ font-family: "Poppins", sans-serif;
+}
+
+.container {
+ max-width: 1170px;
+ margin: auto;
+}
+
+.row {
+ display: flex;
+ flex-wrap: wrap;
+ gap: 15px; /* Reduced space between columns */
+}
+
+.footerCol {
+ width: 20%; /* Adjusted to fit 5 columns with gap */
+ padding: 0 10px; /* Reduced padding inside columns */
+}
+
+.footerCol h4 {
+ font-size: 16px; /* Reduced font size */
+ color: #ffffff;
+ text-transform: capitalize;
+ margin-bottom: 15px; /* Reduced margin */
+ font-weight: 500;
+ border-bottom: none; /* Removed underline */
+}
+
+.footerCol ul {
+ list-style: none;
+ padding: 0;
+ margin: 0; /* Removed margin */
+}
+
+.footerCol ul li {
+ margin-bottom: 8px; /* Reduced margin */
+}
+
+.footerCol ul li a {
+ font-size: 14px; /* Reduced font size */
+ text-transform: capitalize;
+ color: #bbbbbb;
+ text-decoration: none;
+ font-weight: 300;
+ display: block;
+ transition: all 0.3s ease;
+}
+
+.footerCol ul li a:hover {
+ color: #ffffff;
+ padding-left: 6px; /* Reduced padding on hover */
+}
+
+.footerCol .socialLinks {
+ display: flex;
+ gap: 8px; /* Reduced space between icons */
+}
+
+.footerCol .socialLinks a {
+ display: inline-block;
+ height: 35px; /* Reduced height */
+ width: 35px; /* Reduced width */
+ background-color: rgba(255, 255, 255, 0.2);
+ text-align: center;
+ line-height: 35px; /* Adjusted line height */
+ border-radius: 50%;
+ color: #ffffff;
+ transition: all 0.5s ease;
+}
+
+.footerCol .socialLinks a:hover {
+ color: #031a31; /* Dark blue */
+ background-color: #ffffff;
+}
+
+/* Media queries */
+
+/* Medium tablets and large phones (portrait) */
+@media (max-width: 992px) {
+ .footerCol {
+ width: 25%; /* 4 columns */
+ }
+}
+
+/* Small tablets and large phones (landscape) */
+@media (max-width: 768px) {
+ .footerCol {
+ width: 33.33%; /* 3 columns */
+ }
+}
+
+/* Small devices (portrait phones) */
+@media (max-width: 576px) {
+ .footerCol {
+ width: 50%; /* 2 columns */
+ padding: 0 8px; /* Adjust padding */
+ }
+}
+
+/* Extra small devices (portrait phones) */
+@media (max-width: 480px) {
+ .footerCol {
+ width: 100%; /* 1 column */
+ }
+ .footerCol ul li {
+ margin-bottom: 6px; /* Adjust spacing */
+ }
+}
